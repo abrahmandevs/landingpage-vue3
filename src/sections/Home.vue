@@ -27,7 +27,7 @@
 				url: "#price",
 			},
 		],
-		img: "./src/assets/images/market-launch-pana.svg",
+		img: "/src/assets/images/market-launch-pana.svg",
 	})
 </script>
 <template>
