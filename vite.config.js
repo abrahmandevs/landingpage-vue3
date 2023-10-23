@@ -5,5 +5,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
     plugins: [vue()],
     // base: '/' not working on github action page
+    // base: '/' not working on github action page
     base: '/landingpage-vue3'
 })
