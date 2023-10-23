@@ -69,7 +69,7 @@
 				<p class="text-gray-400 text-sm">{{ data["abouts"]["shortDetails"] }}</p>
 				<h4 class="">{{ data["abouts"]["socialLinks"]["title"] }}</h4>
 				<div class="flex items-center gap-1">
-					<ActionBtn v-for="(item, index) in data['abouts']['socialLinks']['links']" :key="index" :href="item['url']" class="shrink-0 justify-center bg-gray-500 h-8 w-8 rounded-full hover:bg-blue-400">
+					<ActionBtn target="_blank" v-for="(item, index) in data['abouts']['socialLinks']['links']" :key="index" :href="item['url']" class="shrink-0 justify-center bg-gray-500 h-8 w-8 rounded-full hover:bg-blue-400">
 						<img :src="item['icon']" alt="" />
 					</ActionBtn>
 				</div>
