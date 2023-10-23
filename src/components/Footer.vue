@@ -20,12 +20,10 @@
 			socialLinks: {
 				title: "Projects",
 				links: [
-					{ url: "#", icon: "src/assets/images/instagram.png", alt: "instagram" },
-					{ url: "#", icon: "src/assets/images/facebook.png", alt: "facebook" },
-					{ url: "#", icon: "src/assets/images/twitter.png", alt: "twitter" },
-					{ url: "#", icon: "src/assets/images/linkedin.png", alt: "linkedin" },
-					{ url: "#", icon: "src/assets/images/pinterest.png", alt: "pinterest" },
-					{ url: "#", icon: "src/assets/images/dribbble.png", alt: "dribbble" },
+					{ url: "https://www.facebook.com/arrahman.devs", icon: "images/facebook.png", alt: "facebook" },
+					{ url: "https://twitter.com/arrahman_dev", icon: "images/twitter.png", alt: "twitter" },
+					{ url: "https://www.linkedin.com/in/arrahman-dev/", icon: "images/linkedin.png", alt: "linkedin" },
+					{ url: "https://github.com/arrahman-dev", icon: "images/github.png", alt: "github" },
 				],
 			},
 		},
