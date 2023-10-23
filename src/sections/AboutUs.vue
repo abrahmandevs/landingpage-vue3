@@ -105,7 +105,7 @@
 		],
 		about: "Hello, Iam AR Rahman experienced Junior Full-Stack Web Developer a lot of experience in front-end and back-end development. Proficient in JavaScript, Bootstrap, Tailwind CSS, Alpine.js, Vue.js, PHP, Laravel, Livewire, MySQL, and GitHub. Eager to contribute technical expertise to a dynamic remote team",
 		image: {
-			iamge: "assets/images/dashboard.jpg.webp",
+			iamge: "images/dashboard.jpg.webp",
 			url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 		},
 		counters: [
@@ -118,7 +118,7 @@
 				title: "TEAM",
 			},
 		],
-		img: "src/assets/images/dashboard.jpg.webp",
+		img: "images/dashboard.jpg.webp",
 	})
 </script>
 <template>

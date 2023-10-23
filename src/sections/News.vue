@@ -23,7 +23,7 @@
 				activeStatus: "Jun 14, 2020",
 				profession: "Digital Service, 4 min read",
 				img: {
-					image: "/src/assets/images/person_1.jpg.webp",
+					image: "images/person_1.jpg.webp",
 					title: "This is a logo",
 				},
 				shortDetails: "Far far away behind the word mountains far from the countries",
@@ -34,7 +34,7 @@
 				activeStatus: "Jun 14, 2020",
 				profession: "Digital Service, 4 min read",
 				img: {
-					image: "/src/assets/images/person_2.jpg.webp",
+					image: "images/person_2.jpg.webp",
 					title: "This is a logo",
 				},
 				shortDetails: "Far far away behind the word mountains far from the countries",
@@ -45,7 +45,7 @@
 				activeStatus: "Jun 14, 2020",
 				profession: "Digital Service, 4 min read",
 				img: {
-					image: "/src/assets/images/person_3.jpg.webp",
+					image: "images/person_3.jpg.webp",
 					title: "This is a logo",
 				},
 				shortDetails: "Far far away behind the word mountains far from the countries",
@@ -61,7 +61,7 @@
 			<div class="p-4 md:p-8 space-y-6 h-full bg-white rounded transition-all duration-300 hover:-translate-y-2" v-for="(card, index) in data['cards']" :key="index">
 				<div class="flex gap-x-3">
 					<div class="shrink-0 h-12 w-12 overflow-hidden rounded-full bg-slate-100 shadow-md ring-2 ring-white">
-						<img class="h-full w-full object-cover" :src="card['img'] ? card['img']['image'] : '/src/assets/images/person_1.jpg.webp'" :alt="card['img'] ? card['img']['title'] : ''" />
+						<img class="h-full w-full object-cover" :src="card['img'] ? card['img']['image'] : 'images/person_1.jpg.webp'" :alt="card['img'] ? card['img']['title'] : ''" />
 					</div>
 					<div class="">
 						<h4 class="text-m font-semibold">{{ card["name"] }}</h4>

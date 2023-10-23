@@ -94,14 +94,14 @@
 			name: "James Anderon",
 			profession: "Facebook, Product Lead",
 			image: {
-				url: "/src/assets/images/person_1.jpg.webp",
+				url: "images/person_1.jpg.webp",
 				title: "This is a logo",
 			},
 			shortDetails: "a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ",
 		},
 
 		image: {
-			iamge: "src/assets/images/dashboard.jpg.webp",
+			iamge: "images/dashboard.jpg.webp",
 			url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 		},
 	})
