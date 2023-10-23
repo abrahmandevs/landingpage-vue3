@@ -22,7 +22,7 @@
 				},
 				cardLink: null,
 				image: {
-					img: "src/assets/images/dashboard.jpg.webp",
+					img: "./src/assets/images/dashboard.jpg.webp",
 					url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 				},
 			},
@@ -42,7 +42,7 @@
 				},
 				cardLink: null,
 				image: {
-					img: "src/assets/images/unsplash-1.jpg",
+					img: "./src/assets/images/unsplash-1.jpg",
 					url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 				},
 			},
@@ -62,7 +62,7 @@
 				},
 				cardLink: null,
 				image: {
-					img: "src/assets/images/unsplash-3.jpg",
+					img: "./src/assets/images/unsplash-3.jpg",
 					url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 				},
 			},
@@ -82,17 +82,17 @@
 				},
 				cardLink: null,
 				image: {
-					img: "src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg",
+					img: "./src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg",
 					url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 				},
 			},
 		],
 		image: {
-			img: "src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg",
+			img: "./src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg",
 			url: "https://www.youtube.com/watch?v=mwtbEGNABWU&amp;t=9s",
 		},
 	})
-	const thumb = ref("src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg")
+	const thumb = ref("./src/assets/images/team-nocoloco-KC-Rc51oTNM-unsplash.jpg")
 	function thumbImg(card, key) {
 		thumb.value = card
 		activeIndex.value = key
