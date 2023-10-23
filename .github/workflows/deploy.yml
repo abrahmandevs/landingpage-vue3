@@ -35,20 +35,21 @@ jobs:
         with:
           node-version: 18
           #cache: 'yarn'
-          cache: 'npm'
+          #cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
-        #run: yarn
-        run: npm install 
+        run: yarn install
+        #run: npm install 
       - name: Build
-        #run: yarn build
-        run: npm run build
+        run: yarn build
+        #run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist'
+          path: './'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
