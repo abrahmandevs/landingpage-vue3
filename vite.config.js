@@ -9,6 +9,6 @@ export default defineConfig({
     base: '/landingpage-vue3'
 })
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/landingpage-vue3/' : '/',
 };
 
